@@ -1,0 +1,36 @@
+
+input, textarea, a{
+    font-family: inherit;
+}
+
+.transition-3s{
+    transition: all .3s ;
+}
+
+
+.hideCardTransition{
+    transition: opacity 0.3s ease-in-out .05s , transform 0.3s;
+   
+}
+
+.hideCardChanges{
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.showCardChanges{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.transition2{
+    transition: opacity 0.05s, transform 0.3s 0.05s;
+}
